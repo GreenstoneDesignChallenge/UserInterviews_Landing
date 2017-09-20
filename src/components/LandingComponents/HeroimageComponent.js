@@ -14,14 +14,14 @@ import {Redirect} from 'react-router-dom'
 
 
 
-const myTitle =['Stay in touch with the people you actually care about','Explore, Travel, Connect','Share and expand your network with your closest friends', 'Become a Nomad']
+const myTitle =['Standardized Data', 'Interoperability', 'The First And Only Open Standard For Mobile Health Data']
 
 
 export class HeroImage extends Component{
   constructor(){
     super()
     this.state = {
-      title: "Explore, Travel, Connect",
+      title: "Open M Health: Shimmer Testing Site",
       setModal:  ()=>{this.props.Modal("SOCIAL_SIGN_IN")}
     }
   }
@@ -39,7 +39,7 @@ export class HeroImage extends Component{
     setTimeout(()=>{
       const i = Math.floor(Math.random() * 4)
       this.setState({title: myTitle[i]})
-    }, 2000)
+    }, 3000)
 
     return(
       <div className="landing ui grid">
@@ -47,8 +47,8 @@ export class HeroImage extends Component{
           <h1 className="landing-title">{this.state.title}</h1>
       </div>
       <div className="row">
-      <Link className="landing-title ui button" to="/newuser">Signup</Link>
-      <Link className="landing-title ui button" to="/login">Login</Link>
+      {/* <Link className="landing-title ui button" to="/newuser">Signup</Link>
+      <Link className="landing-title ui button" to="/login">Login</Link> */}
     {/* <a className="landing-title ui button" onClick={this.state.setModal}>Login</a> */}
 
 
