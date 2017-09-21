@@ -14,14 +14,14 @@ import {Redirect} from 'react-router-dom'
 
 
 
-const myTitle =['Standardized Data', 'Interoperability', 'The First And Only Open Standard For Mobile Health Data']
+const myTitle =['Our Goal is to Design a Human and Value Centered Approach', 'Scroll Down to Help Drive Our Design Process']
 
 
 export class HeroImage extends Component{
   constructor(){
     super()
     this.state = {
-      title: "Open M Health: Shimmer Testing Site",
+      title: "Thank You For Your Help and Insight!",
       setModal:  ()=>{this.props.Modal("SOCIAL_SIGN_IN")}
     }
   }
@@ -37,7 +37,7 @@ export class HeroImage extends Component{
   render(){
 
     setTimeout(()=>{
-      const i = Math.floor(Math.random() * 4)
+      const i = Math.floor(Math.random() * 2)
       this.setState({title: myTitle[i]})
     }, 3000)
 

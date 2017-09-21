@@ -13,8 +13,8 @@ class Landing extends Component {
     return(
       <div>
         <HeroImage />
-        {/* <LandingComponentTwo/>
-        <LandingComponentThree/>
+        <LandingComponentTwo/>
+        {/* <LandingComponentThree/>
         <LandingComponentFour/> */}
 
         </div>

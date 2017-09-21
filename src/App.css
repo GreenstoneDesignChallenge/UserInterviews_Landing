@@ -41,8 +41,13 @@ h1, h2, h3, h4, h5{
   padding-bottom: 2em;
   height: 100%;
 }
-
+*,:after, :before {
+    box-sizing: border-box;
+}
 .landing2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding-top: 2em;
   padding-bottom: 2em;
   height: 100%;
