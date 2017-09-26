@@ -6,6 +6,9 @@ import {connect} from 'react-redux'
 import {Redirect} from 'react-router-dom'
 import { fetchUsers, loginUserAuth} from './actions'
 
+import Prototype from './LandingComponents/Prototype'
+
+
 export class Login extends Component {
   componentDidMount(){
     this.props.fetchUsers()
@@ -112,7 +115,9 @@ export class Login extends Component {
     )
     return(
       <div className="ui container">
-        {this.state.done ? <Redirect to="/profile"/>: form}
+        {/* {this.state.done ? <Redirect to="/profile"/>: form} */}
+        <Prototype/>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSek0coewJWmaYJD1hl3bqRx8lOa0Q2hHp4hXTylAJqI3slbdA/viewform?embedded=true" width="960" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
       </div>
     )
   }
