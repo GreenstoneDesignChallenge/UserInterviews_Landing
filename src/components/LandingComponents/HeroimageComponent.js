@@ -14,14 +14,14 @@ import {Redirect} from 'react-router-dom'
 
 
 
-const myTitle =['Our Goal is to Design a Human and Value Centered Approach', 'Scroll Down to Help Drive Our Design Process']
+const myTitle =['Our Goal is to Design a Human and Value Centered Approach Toward A Humans Meaningful Health', 'Scroll Down to understand the design process, insights gained, and wireframes developed']
 
 
 export class HeroImage extends Component{
   constructor(){
     super()
     this.state = {
-      title: "Thank You For Your Help and Insight!",
+      title: "Greenstone Design Challenge",
       setModal:  ()=>{this.props.Modal("SOCIAL_SIGN_IN")}
     }
   }

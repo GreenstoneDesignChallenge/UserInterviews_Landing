@@ -61,8 +61,18 @@ export class User extends Component {
 
   render(){
     const form = (
-      <form className={ClassNames('ui', 'form', {loading: this.state.loading})} onSubmit={this.handleSubmit}>
-        <h1>Become a Nomad</h1>
+      <form className={ClassNames('ui', 'form', 'preRegister', {loading: this.state.loading})} onSubmit={this.handleSubmit}>
+        <h1>Meaningful Health Dashboard</h1>
+      <h5>We have designed a value based digital health dashboard that has humans at the center of it!
+
+      If you 
+Thank you in advance for you help, as this user testing will be a huge part of my job description, if I get the job, and thus is a very important aspect of how they will grade my performance.  !!! :)
+
+I will not be sharing the information you share about yourself with anyone. This is simply to drive meaning behind the design process!
+
+This is all short answer, as to drive qualitative design.
+
+There may be overlap across some of your responses, if this is the case, that is apart of the process. </h5>
 
       {!!this.state.errors.global && <div className="ui negative message"><p>{this.state.errors.global}</p></div>}
 

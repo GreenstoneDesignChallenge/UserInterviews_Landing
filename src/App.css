@@ -4,6 +4,10 @@ html{
 h1, h2, h3, h4, h5{
   font-family: mplus-1p-thin, Helvetica, arial, freesans, clean, sans-serif;
 }
+.preRegister{
+padding-top: 10vh;
+padding-bottom: 10vh
+}
 
 /*.modal{
   position: absolute;
@@ -55,7 +59,7 @@ h1, h2, h3, h4, h5{
 
 }
 .ui.segment.container.landing3{
-  background-image: url("/images/chains.jpg");
+  background-image: url("/images/healthTwo.jpeg");
   background-size:cover;
   color: black
 }
@@ -73,11 +77,10 @@ h1, h2, h3, h4, h5{
 .six.wide.column.social{
   margin-left: 15vw;
 }
-/*
+
 .landing-title{
-  position: absolute;
-  margin-top: 80vh;
-}*/
+  padding: 2em
+}
 
 h1:first-child.landing-title{
     position:sticky;
