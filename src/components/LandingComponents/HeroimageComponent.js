@@ -43,9 +43,20 @@ export class HeroImage extends Component{
 
     return(
       <div className="landing ui grid">
-        <div className="row">
+        <div className="row title">
+          <h1 className="row title">Digital Health Design Challenge: Devin Hanaway</h1>
+        </div>
+        <div className="row title">
+          <h1 className="row titleTwo">Making Health Information Meaningful</h1>
+        <p className="row titleThree">The goal of this design challenge is to shape technology in a way that brings value to people and their healthcare ecosystem. This enables them to take control of their health from a meaningful perspective.</p>
+        </div>
+        <div className="row title">
+
+        </div>
+
+        {/* <div className="row">
           <h1 className="landing-title">{this.state.title}</h1>
-      </div>
+      </div> */}
       <div className="row">
       {/* <Link className="landing-title ui button" to="/newuser">Signup</Link>
       <Link className="landing-title ui button" to="/login">Login</Link> */}

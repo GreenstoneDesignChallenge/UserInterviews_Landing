@@ -21,7 +21,7 @@ export class HeroImage extends Component{
   constructor(){
     super()
     this.state = {
-      title: "Creating a meaningful health dashboard",
+      title: "Thank you for helping us design a product around meaningful health",
       setModal:  ()=>{this.props.Modal("SOCIAL_SIGN_IN")}
     }
   }
@@ -39,12 +39,14 @@ export class HeroImage extends Component{
     setTimeout(()=>{
       const i = Math.floor(Math.random() * 2)
       this.setState({title: myTitle[i]})
-    }, 3000)
+    }, 4000)
 
     return(
       <div className="landing ui grid">
         <div className="row">
           <h1 className="landing-title">{this.state.title}</h1>
+        <Link className="landing-title ui button center aligned" to="/">Design Challenge Insights</Link>
+
       </div>
       <div className="row">
       {/* <Link className="landing-title ui button" to="/newuser">Signup</Link>

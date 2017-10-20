@@ -15,7 +15,7 @@ class App extends Component {
 
     return (
       <div >
-        {/* <Landing/> */}
+        <Landing/>
         {/* <div className="ui three item menu container">
         <Link className="item" to="/landing">Home</Link>
         <Link className="item" to="/user">Users</Link>

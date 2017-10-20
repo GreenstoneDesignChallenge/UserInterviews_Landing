@@ -8,6 +8,9 @@ import LandingComponentFour from './LandingComponents/LandingComponentFour'
 import DesignPrompt from './LandingComponents/DesignPrompt'
 import Prototype from './LandingComponents/Prototype'
 import Footer from './LandingComponents/Footer'
+import Mypurpose from './LandingComponents/mypurpose'
+  import Insights from './LandingComponents/Insights'
+  import StrategyTitle from './LandingComponents/StrategyTitle'
 
 class Landing extends Component {
 
@@ -16,10 +19,13 @@ class Landing extends Component {
     return(
       <div>
         <HeroImage />
-      <DesignPrompt />
+        <DesignPrompt />
+        <Mypurpose/>
+        <StrategyTitle/>
         <LandingComponentTwo/>
+        <Insights/>
         <LandingComponentThree/>
-        <LandingComponentFour/>
+        {/* <LandingComponentFour/> */}
         <Prototype/>
         <Footer/>
 

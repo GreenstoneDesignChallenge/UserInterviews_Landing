@@ -20,7 +20,7 @@ import HeroimageComponent from './components/LandingComponents/HeroimageComponen
 import User from './components/User'
 import Landing from './components/Landing'
 import SimpleMap from './components/SimpleMap'
-import Login from './components/Login'
+import survey from './components/survey'
 import SearchUsers from './components/SearchUsers'
 import Profile from './components/Profile'
 
@@ -42,14 +42,14 @@ ReactDOM.render(
 
       <div className="ui">
 
-      <Route path='/' component={App} />
+      <Route exact path='/' component={Landing} />
       <Route path='/User' component={User} />
-      <Route path='/landing' component={Landing} />
-      <Route path='/newuser' component={NewUser} />
-      <Route path='/simplemap' component={SimpleMap} />
-      <Route path='/login' component={Login} />
+    <Route path='/landing' component={Landing} />
+      {/* <Route path='/newuser' component={NewUser} />
+      <Route path='/simplemap' component={SimpleMap} /> */}
+    <Route exact path='/survey' component={survey} />
     <Route path='/searchusers' component={SearchUsers} />
-  <Route path='/profile' component={Profile} />
+  {/* <Route path='/profile' component={Profile} /> */}
       </div>
 
     </Provider>

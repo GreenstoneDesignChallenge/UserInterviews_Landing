@@ -1,12 +1,111 @@
+.small{
+  font-size: 12pt;
+  font-family: mplus-1p-thin, Helvetica, arial, freesans, clean, sans-serif;
+  padding-top: 10pt;
+  /*padding-bottom: 1pt;*/
+
+}
+.pad{
+  font-size: 12pt;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-family: mplus-1p-light, Helvetica, arial, freesans, clean, sans-serif;
+
+}
+
+.white{
+  background-color: white
+}
+.ui.two.row {
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+.primary{
+  padding-bottom: 5vh;
+  padding-top: 5vh;
+  background-color: #00BCD4;
+
+}
+.primary.ui.grid.centered {
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    background-color: #00BCD4;
+
+}
+.ui.segment.container {
+    background-color: white;
+}
+.ui.segment.container.white {
+    background-color: #FF4081;
+    color: #FFFFFF
+}
+
+
+p.pad.ui.center.aligned.icon.header{
+  font-size: 12pt;
+  font-family: mplus-1p-light, Helvetica, arial, freesans, clean, sans-serif;
+}
+.strategy{
+  font-size: 12pt;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  font-family: mplus-1p-regular, Helvetica, arial, freesans, clean, sans-serif;
+  text-align: center;
+}
 html{
   font-family: mplus-1p-thin, Helvetica, arial, freesans, clean, sans-serif;
 }
-h1, h2, h3, h4, h5{
+h1, h2{
+  font-family: mplus-1p-regular, Helvetica, arial, freesans, clean, sans-serif;
+}
+h3, h4, h5{
   font-family: mplus-1p-thin, Helvetica, arial, freesans, clean, sans-serif;
+}
+
+h1.ui.center.aligned.icon.header {
+    font-family: mplus-1p-thin;
+}
+h4.ui.center.aligned.icon.header.mockup {
+    font-family: mplus-1p-thin;
 }
 .preRegister{
 padding-top: 10vh;
 padding-bottom: 10vh
+}
+.secondaryColor.ui.grid.centered {
+  padding-top: 5vh;
+  padding-bottom: 5vh
+}
+.underLine{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.space{
+  line-height: 16pt;
+}
+.title{
+  padding-top: 5vh;
+  max-width: 80vw;
+  text-align: center;
+}
+.light{
+  background-color: white
+}
+.secondaryColor{
+  background-color: #B2EBF2;
+}
+.titleTwo{
+  padding-top: 20vh;
+  font-family: mplus-1p-thin;
+  font-weight:600;
+  font-size: 3em;
+  max-width: 80vw;
+  text-align: center;
+}
+.titleThree{
+  max-width: 70vw;
+  text-align: center;
 }
 
 /*.modal{
@@ -24,7 +123,14 @@ padding-bottom: 10vh
 .ui.center.aligned.icon.header.container.padding{
   padding-top: 5vh
 }
+.blue{
+  background-color: #93BEDF
+}
 
+h1.myApproach.ui.center.aligned.icon.header {
+    /*padding-top: 1em;*/
+    font-size: 2em
+}
 .landing{
   display: flex;
   flex-direction: row;
@@ -32,12 +138,30 @@ padding-bottom: 10vh
   height: 100vh;
   width: 100vw;
   background-image: url("/images/openmlanding.jpeg");
-  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/267950/pexels-photo-267950.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-repeat:no-repeat;
   background-size:cover;
   background-color: rgba(0,0,0,0.5);
   padding: 0;
   margin: 0;
   color: white
+}
+.mockup{
+  max-width: 80vw;
+  text-align: center;
+}
+.blue.ui.grid.centered{
+  padding-top: 5vh
+}
+li{
+  font-family: mplus-1p-light;
+  padding-left: 1em;
+  padding-right: .5em;
+  padding-top: .5em
+}
+h3.ui.center.aligned.icon.header {
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .padding{
@@ -58,9 +182,27 @@ padding-bottom: 10vh
   background-color: #93BEDF
 
 }
+.eight.wide.column.social.segment.right {
+    /*margin-left: 50%;*/
+}
+.eight.wide.column.social.segment.left {
+    /*margin-right: 50%;*/
+}
+.mypurpose{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  height: 100%;
+  background-color: #93BEDF
+
+}
 .ui.segment.container.landing3{
-  background-image: url("/images/healthTwo.jpeg");
+  /*background-image: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");*/
+  /*background-image: url("/images/healthTwo.jpeg");*/
   background-size:cover;
+  background-color: #B2EBF2;
   color: black
 }
 .ui.segment.container.landing4{
@@ -77,6 +219,9 @@ padding-bottom: 10vh
 .six.wide.column.social{
   margin-left: 15vw;
 }
+.centeredTitle{
+  text-align: center;
+}
 
 .landing-title{
   padding: 2em
@@ -85,6 +230,9 @@ padding-bottom: 10vh
 h1:first-child.landing-title{
     position:sticky;
     margin-top: 50vh;
+}
+.left{
+  padding-left: 2vw
 }
 
 .ui.button{

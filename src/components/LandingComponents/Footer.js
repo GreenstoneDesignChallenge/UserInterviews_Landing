@@ -10,8 +10,8 @@ export default class LandingComponentThree extends Component{
 
     return(
 
-      <div className="padding ui">
-      <h4>All Rights Reserved | Devin Hanaway |<span><a href="www.devinhanaway.com">www.devinhanaway.com</a></span></h4>
+      <div className="centered header footerPadding ui primary left">
+      <h4>Devin Hanaway | <span><a href="https://www.devinhanaway.com" target="_">www.devinhanaway.com</a></span></h4>
 
 
 

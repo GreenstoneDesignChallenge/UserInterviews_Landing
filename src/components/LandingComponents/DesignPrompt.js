@@ -10,10 +10,9 @@ export default class LandingComponentThree extends Component{
 
     return(
 
-      <div className="padding ui">
-        <h1 className=" ui center aligned icon header">Design Challenge </h1>
-      <h4 className=" ui center aligned icon header">3. REPORT
-Assume you have access to all of a person’s digitized health records, and design the dashboard that they would use to see a meaningful overview of their health.</h4>
+      <div className="font padding ui light">
+        <h1 className="font ui center aligned icon header mockup underLine">Design Challenge </h1>
+      <p className="pad ui center strategy">Assume you have access to all of a person’s digitized health records, and design the dashboard that they would use to see a meaningful overview of their health.</p>
 
 
 
